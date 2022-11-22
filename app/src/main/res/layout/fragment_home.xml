@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/SV"
+                android:text="搜索"
+                android:background="@drawable/no_bj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.youth.banner.Banner
+                android:id="@+id/homeBanner"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="10dp"
+                android:id="@+id/rv_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="10dp"
+                android:id="@+id/rv_hot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/v1"
+                android:layout_width="wrap_content"
+                android:layout_height="800dp">
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/t1"
+                    android:background="#D6D4D4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </androidx.viewpager.widget.ViewPager>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

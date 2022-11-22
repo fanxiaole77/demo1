@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="首页"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:id="@+id/nav_home"/>
+
+    <item
+        android:title="垃圾分类"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:id="@+id/nav_litter"/>
+
+    <item
+        android:title="数据分析"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:id="@+id/nav_data"/>
+    <item
+        android:title="律师咨询主页"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:id="@+id/nav_lawyer"/>
+    <item
+        android:title="个人中心"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:id="@+id/nav_me"/>
+</menu>
